@@ -12,5 +12,5 @@ MyFirstTest
     Evaluate    chromedriver_binary.add_chromedriver_to_path()  modules=chromedriver_binary
     Open Browser    ${URL}      ${BROWSER}     options=add_experimental_option("excludeSwitches", ["enable-logging"])
     Maximize Browser Window
-    Wait Until Page Contains            test2
+    Wait Until Page Contains            test1
     Close Browser
